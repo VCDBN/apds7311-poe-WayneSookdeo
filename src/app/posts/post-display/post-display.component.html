@@ -1,0 +1,17 @@
+<div class="posts-container">
+  <div *ngFor="let post of arrpost" class="post-item">
+    <h3 class="post-heading">Username</h3>
+    <div class="post-details">{{ post.username }}</div>
+    
+    <h3 class="post-heading">Content</h3>
+    <div class="post-details">{{ post.postContent }}</div>
+    
+    <h3 class="post-heading">Department</h3>
+    <div class="post-details">{{ post.department }}</div>
+    
+    <h3 class="post-heading">Date</h3>
+    <div class="post-details">{{ post.date }}</div>
+    
+    <button (click)="ondelete(post._id)">Delete</button>
+  </div>
+</div>

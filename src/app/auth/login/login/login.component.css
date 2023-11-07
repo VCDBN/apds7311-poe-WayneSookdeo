@@ -1,0 +1,53 @@
+.login-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #2c3e50;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 15px; /* Increase padding for a better visual */
+    margin-bottom: 20px; /* Increase margin-bottom for better spacing */
+    border-radius: 5px;
+    border: 1px solid #34495e;
+    background-color: #3a506b;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:focus {
+    outline: none;
+    background-color: #435b70;
+  }
+  
+  .login-form button[type="submit"] {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 15px; /* Increase padding for a better visual */
+    margin-top: 10px; /* Add a top margin to separate from the inputs */
+    border: none;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase; /* Capitalize the text */
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button[type="submit"]:hover {
+    background-color: #16a085;
+  }
+  
+  .login-form div {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+  
+  /* Remove <br> styling since it's not needed with proper margin usage */
+  
